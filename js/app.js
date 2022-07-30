@@ -8,9 +8,11 @@ function post_failure(error) {
 }
 
 function loginFunction(details) {
+    /* use eve.holt@reqres.in */
     let user_email_input = document.getElementById(`email`);
     let user_email_value = user_email_input[`value`];
 
+    /* use cityslicka */
     let user_password_input = document.getElementById(`password`);
     let user_password_value = user_password_input[`value`];
 
